@@ -3,27 +3,28 @@ body {
   background: rgb(248,248,248);
   color: Black;
   margin: 0px;
-  font-size: 25px;
+  font-size: 15px;
   font-family: Helvetica;
 }
 
 h1 {
   font-family: Courier;
+  color: white;
+  background-color: Pink
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+h2 {
+text-align: center; 
+font-family: Courier;
   color: black;
-  background: Pink
   font-weight: lighter;
   font-size: 20px;
 }
 
-h2 {
-  font-family: Courier;
-  color: pink;
-  font-weight: lighter;
-  font-size: 8px;
-}
-
 a {
-  color: yellow;
+  color: red;
 }
 
 a:hover {
@@ -32,10 +33,10 @@ a:hover {
 }/* Write your CSS here */
 #banner {
   text-align: center;
-  background-image: url("https://unsplash.it/1300/600?random");
+  background-image: url(images/tuile.jpg);
   background-size: cover;
-  padding: 150px;
-  color: white;
+  padding: 50px;
+  color: black;
 }
 
 #banner img {
@@ -43,8 +44,8 @@ a:hover {
 }
 
 #banner h1 {
-  font-size: 50px;
-  text-shadow: 3px 3px #F18805;
+  font-size: 30px;
+  text-shadow: 3px 3px #282923;
 }
 
 #banner p {
@@ -55,9 +56,9 @@ a:hover {
 
 .btn {
   text-decoration: none;
-  background-color: #F18805;
+  background-color: #282923;
   border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  box-shadow: 0 4px 6px rgba(232,232,232,11);
   padding: 15px 20px;
 }
 
@@ -68,7 +69,8 @@ a:hover {
 }
 
 .card {
-  padding: 50px;
+	text-align: center;
+  padding: 30px;
   font-weight: lighter;
 }
 
